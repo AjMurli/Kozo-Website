@@ -446,6 +446,14 @@ body {
 
 /* Media Queries Start */
 @media (max-width: 768px) {
+    #navSection {
+        padding: 1rem 1rem;
+    }
+
+    #landingSection {
+        padding-bottom: 2rem;
+    }
+
     #landingSection .content {
         position: static;
     }
@@ -788,5 +796,86 @@ body {
 @media (max-width: 1500px) and (min-width:1082px) {
     #solutionSection .cards {
         flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 470px) and (min-width:0px) {
+    #solutionSection .cards .card {
+        min-width: 21rem;
+    }
+
+    .integration {
+        right: 0rem;
+    }
+
+    .approval {
+        position: relative;
+        left: 0.3rem;
+    }
+
+    .cards .card p {
+        font-size: 1rem;
+    }
+
+    .featureDetails img {
+        position: static;
+        width: 10%;
+    }
+
+    .featureDetails1 img {
+        position: static;
+        width: 10%;
+    }
+
+    .featureDetails1 .duplicate {
+        position: static;
+    }
+
+    .featureDetails1 .dashboard {
+        position: static;
+    }
+
+    .featureDetails1 .members {
+        position: static;
+    }
+
+    .featureDetailsContent1 {
+        position: static;
+    }
+
+    .featureDetailsContent h5 {
+        font-size: 4vw;
+    }
+
+    .featureDetailsContent1 h5 {
+        font-size: 4vw;
+    }
+
+    .invoice1 {
+        position: static;
+    }
+
+    .featureDetails .IconHolder {
+        position: static;
+    }
+
+    .featureDetails .invoice {
+        position: static;
+    }
+
+    .featureDetails .tracker {
+        position: static;
+    }
+
+    .featureDetails {
+        gap: 1rem;
+    }
+
+    #navSection {
+        padding: 1rem 1rem;
+    }
+
+    #landingSection {
+        padding-bottom: 2rem;
     }
 }
