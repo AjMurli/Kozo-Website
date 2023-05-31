@@ -1,0 +1,792 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bree+Serif&family=Clicker+Script&family=Courgette&family=Libre+Baskerville:wght@700&family=Lobster+Two:wght@700&family=Orelega+One&family=PT+Serif:ital,wght@1,700&family=Pacifico&family=Patua+One&family=Roboto+Slab:wght@600&family=Signika+Negative:wght@300&family=Yantramanav&display=swap');
+
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navSection {
+    background-color: #4716BA;
+}
+
+#navSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+}
+
+#navSection ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    z-index: 100;
+
+}
+
+#navSection ul li {
+    display: inline-block;
+}
+
+#navSection ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#navSection .hamburger {
+    display: none;
+}
+
+
+
+
+#navSection ul li:last-child a {
+    font-weight: bold;
+}
+
+#mainSection {
+    /* height: 100vh; */
+    background-color: #4716BA;
+    overflow-x: hidden;
+}
+
+#landingSection {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    color: white;
+}
+
+#landingSection h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 150%;
+    margin-bottom: 1.5rem;
+}
+
+#landingSection p {
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 160%;
+    /* width: 63%; */
+    width: 80%;
+    font-size: 1.08rem;
+}
+
+#landingSection img {
+    width: 25%;
+    position: relative;
+}
+
+@keyframes anime {
+
+    0%,
+    100% {
+        transform: translateY(0rem);
+    }
+
+    50% {
+        transform: translateY(-3.5rem);
+    }
+
+}
+
+
+#landingSection .content {
+    width: 42%;
+    position: relative;
+    left: 9%;
+    top: 3rem;
+}
+
+#about {
+    display: flex;
+    margin: 8rem 0;
+    justify-content: space-evenly;
+}
+
+.aboutContent {
+    width: 40%;
+}
+
+.aboutContent .aboutContentDetails {
+    margin-bottom: 1.5rem;
+    color: grey;
+    font-size: 16.6px;
+}
+
+.aboutContent h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 150%;
+    margin-bottom: 1.5rem;
+}
+
+#about>img {
+    width: 40%;
+    height: 39%;
+    position: relative;
+    top: 4rem;
+}
+
+.aboutContent .IconCircle {
+    margin-bottom: .5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.aboutContent .IconCircle {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+#structure {
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+#structure h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 150%;
+    margin-bottom: 1.5rem;
+}
+
+#features {
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+#features h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 150%;
+    margin-bottom: 4rem;
+}
+
+.featureSection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.featureDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.featureDetailsContent h5 {
+    text-align: right;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.featureDetailsContent p {
+    color: grey;
+    text-align: right;
+}
+
+.firstFeatureSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.featureDetails .tracker {
+    position: relative;
+    left: 1.3rem;
+}
+
+.featureDetails .invoice {
+    position: relative;
+    left: 0.5rem;
+}
+
+.featureDetails .IconHolder {
+    position: relative;
+    left: 1.2rem;
+}
+
+.featureDetails1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.featureDetailsContent1 h5 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.featureDetailsContent1 p {
+    color: grey;
+    text-align: left;
+}
+
+.secondFeatureSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.featureDetails1 .duplicate {
+    position: relative;
+    right: 2.7rem;
+}
+
+.featureDetails1 .dashboard {
+    position: relative;
+    right: 2.8rem;
+}
+
+.featureDetails1 .members {
+    position: relative;
+    right: 2.8rem;
+}
+
+.featureDetailsContent1 {
+    text-align: left;
+    position: relative;
+    right: 2rem;
+}
+
+.integration {
+    position: relative;
+    right: -1rem;
+}
+
+.invoice1,
+.approval {
+    position: relative;
+    left: -1rem;
+}
+
+#solutionSection {
+    background-color: #4716BA;
+    margin-bottom: 5rem;
+    padding: 8rem 0;
+}
+
+#solutionSection h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 4rem;
+    color: white;
+}
+
+#solutionSection .cards {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+#solutionSection .cards .card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    color: black;
+    /* min-width: 28vw; */
+    min-width: 27rem;
+    min-height: 11vh;
+    padding-left: 1rem;
+    border-radius: .3rem;
+}
+
+.cards .card p {
+    font-size: 1.3rem;
+}
+
+#toolSection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 9rem;
+}
+
+.toolContent {
+    width: 34%;
+}
+
+.toolContent h5 {
+    color: #4716BA;
+    font-size: 1rem;
+}
+
+.toolContent h3 {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.toolContent p {
+    color: grey;
+}
+
+#teamSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 8rem;
+}
+
+.teamSectionContent {
+    width: 30%;
+}
+
+.teamSectionContent h3 {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.teamSectionContent p {
+    color: grey;
+    font-size: 1.2rem;
+}
+
+.teamData {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.teamData h5 {
+    font-size: 1.2rem;
+}
+
+.teamData p {
+    color: grey;
+}
+
+.firstTeam {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+}
+
+.teamInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#reviewSection {
+    margin-bottom: 8rem;
+}
+
+#reviewSection h3 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 150%;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.reviewDetails {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 2rem;
+}
+
+.reviewContent {
+    text-align: center;
+}
+
+.reviewContent img {
+    margin-bottom: 1rem;
+}
+
+.reviewContent h5 {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.reviewContent h6 {
+    color: grey;
+    margin-top: .2rem;
+    margin-bottom: .6rem;
+}
+
+.reviewContent p {
+    color: grey;
+    font-size: 1.2rem;
+    line-height: 3.6vh;
+}
+
+/* Media Queries Start */
+@media (max-width: 768px) {
+    #landingSection .content {
+        position: static;
+    }
+
+    #navSection ul {
+        display: none;
+    }
+
+    #navSection ul li {
+        padding: 1rem 2rem;
+        border-radius: .4rem;
+        cursor: pointer;
+    }
+
+    #navSection ul.show {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        top: 8%;
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+        background-color: #2f0b82;
+        border-radius: .4rem;
+        text-align: center;
+    }
+
+    #navSection ul.show li {
+        width: 100%;
+    }
+
+    #navSection ul li:hover {
+        background-color: #4716BA;
+
+    }
+
+    #navSection .hamburger {
+        display: block;
+        color: white;
+        cursor: pointer;
+        position: relative;
+    }
+
+    #landingSection {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 4rem;
+    }
+
+    #landingSection .content {
+        width: 86%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #landingSection img {
+        width: 30%;
+    }
+
+    #landingSection p {
+        width: auto;
+        padding-top: 1rem;
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    #landingSection h2 {
+        font-size: 5vw;
+        text-align: center;
+        width: auto;
+        padding-top: 1rem;
+    }
+
+
+    #landingSection img {
+        animation: anime 3s linear infinite;
+    }
+
+    #about {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboutContent {
+        width: 90%;
+    }
+
+    .aboutContent {
+        text-align: center;
+    }
+
+    .aboutContent .IconCircle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.6rem;
+    }
+
+    #about>img {
+        /* width: auto; */
+        position: static;
+        margin-bottom: 2rem;
+        width: 70%;
+    }
+
+    #structure img {
+        width: 80%;
+    }
+
+    .featureSection {
+        flex-direction: column;
+    }
+
+    .featureDetails {
+        flex-direction: row-reverse;
+    }
+
+    .featureDetailsContent {
+        position: static;
+    }
+
+    .featureDetails .IconHolder {
+        left: -2rem;
+    }
+
+    .featureDetails .invoice {
+        left: -.9rem;
+    }
+
+    .featureDetails .tracker {
+        left: -1.6rem;
+    }
+
+    .featureDetailsContent p {
+        text-align: left;
+
+    }
+
+    .featureDetailsContent h5 {
+        text-align: left;
+    }
+
+    .approval {
+        position: relative;
+        left: 1.6rem;
+    }
+
+    .invoice1 {
+        position: relative;
+        left: 1rem;
+    }
+
+    .firstFeatureSection {
+        margin-bottom: 5rem;
+    }
+
+    .secondFeatureSection {
+        margin: 5rem 0;
+    }
+
+    #solutionSection .cards {
+        flex-wrap: wrap;
+    }
+
+    #toolSection {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .toolContent {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    #toolSection img {
+        width: 70%;
+    }
+
+    #teamSection {
+        flex-direction: column;
+    }
+
+    .teamSectionContent {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .teamInfo {
+        width: 90%;
+    }
+
+    .teamData {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .firstTeam {
+        justify-content: center;
+    }
+
+    .reviewDetails {
+        flex-direction: column;
+    }
+
+    .reviewContent h6 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 1100px) and (min-width:768px) {
+    #landingSection h2 {
+        font-size: 4vw;
+    }
+
+    #landingSection img {
+        width: 40%;
+    }
+
+    #landingSection p {
+        margin-top: 1rem;
+        font-size: 2vw;
+    }
+
+    #navSection {
+        padding: 1rem .5rem;
+    }
+
+    .aboutContent {
+        width: auto;
+        margin-right: 3rem;
+    }
+
+    #structure img {
+        width: 90%;
+    }
+
+    .featureDetails {
+        flex-direction: column-reverse;
+    }
+
+    .featureDetails1 {
+        flex-direction: column;
+    }
+
+    .firstFeatureSection {
+        margin-left: 2rem;
+    }
+
+    .featureDetailsContent {
+        text-align: center;
+    }
+
+    .featureDetailsContent1 {
+        text-align: center;
+    }
+
+    .featureDetailsContent1 {
+        text-align: center;
+    }
+
+    .featureDetailsContent1 p {
+        text-align: center;
+    }
+
+    .featureDetailsContent p {
+        text-align: center;
+    }
+
+    .featureDetailsContent h5 {
+        text-align: center;
+    }
+
+    #solutionSection .cards {
+        flex-wrap: wrap;
+    }
+
+    #toolSection img {
+        width: 40%;
+    }
+
+    .firstTeam {
+        gap: 1rem;
+    }
+}
+
+#footer {
+    padding: 10rem 0 2rem 0;
+    background-color: #4716BA;
+    color: white;
+}
+
+#footer h3 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 150%;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.emailAndPhone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.emailAndPhone .email {
+    display: flex;
+    gap: 1rem;
+}
+
+.emailAndPhone .email p {
+    cursor: pointer;
+}
+
+.emailAndPhone .phone {
+    display: flex;
+    gap: 1rem;
+}
+
+.copyrightContent {
+    margin-top: 15rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+
+#footer .policy {
+    display: flex;
+    gap: 2rem;
+}
+
+@media (max-width: 1500px) and (min-width:1082px) {
+    #solutionSection .cards {
+        flex-wrap: wrap;
+    }
+}
